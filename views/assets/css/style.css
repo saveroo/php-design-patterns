@@ -1,0 +1,276 @@
+html{
+	overflow-x:hidden;
+	max-width: 98%;
+}
+body{
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo{
+	background-image: url("../img/bjlogo.png");
+	width: 100px;
+	display: block;
+	background-repeat: no-repeat;
+	height: 46px;
+	background-size: 70px;
+	background-position: center;
+}
+.homelogo {
+	background-image: url("../img/bjlogo.png");
+	display: block;
+	background-repeat: no-repeat;
+	height: 180px;
+	background-size: 200px;
+	background-position: center;
+}
+
+.grid{
+	display: grid;
+	border: 0;
+	height: auto;
+	border-radius: 6px;
+	margin-top: 47px;
+	margin-left: 56px;
+	padding: 0 10px 10px 10px;
+	position: relative;
+	width: 100%;
+	float:left;
+	opacity: 0.92;
+}
+
+.float-right{
+	float:right;
+}
+
+.float-none{
+	float:none;
+}
+
+.width-70{
+	width: 70%;
+}
+
+.width-100{
+	width: 100%;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.ratingbox-orange {
+	color: white;
+	border: 1px solid;
+	font-family: monospace;
+	border-radius: 1px;
+	width: 20px;
+	background-color: orange;
+}
+
+.ratingbox-green {
+	color: white;
+	border: 1px solid;
+	font-family: monospace;
+	border-radius: 1px;
+	width: 20px;
+	background-color: green;
+}
+
+.grid .left{
+	background-color: #f2f2f2;
+	width: 20%;
+	padding: 2%;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+.grid .center{
+	background-color: #f2f2f2;
+	width: 20%;
+	padding: 2%;
+	margin-right: 20px; 
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.grid .right{
+	background-color: #f2f2f2;
+	width: 20%;
+	padding: 2%;
+	margin-right: 20px; 
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.item {
+	font-family: sans-serif;
+}
+
+.item a{
+	background-color: yellow;
+	border-radius: 2px;
+	padding: 1px;
+}
+
+.item span{
+	font-weight: bold;
+}
+
+.item input[type=submit]{
+	background-color: green;
+	padding: 10px;
+	border-radius: 6px;
+	border: 0px;
+	width: 100%;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.item input[type=submit]:hover{
+	background-color: maroon;
+	border-radius: 200px;
+}
+
+.navigasi ul {
+	z-index: 999;
+	position: fixed;
+	opacity: 0.90;
+	float: left;
+	list-style-type: none;
+	width: 100%;
+	background-color: #33375b;
+	box-shadow: 0 1px 20px 10px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navigasi li {
+	float:left;
+	border-right: 1px solid #222;
+
+}
+
+.navigasi li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+
+.navigasi li a:hover{
+	-webkit-box-shadow: 0 0px 10px 1px #999;
+    -moz-box-shadow: 0 0px 10px 1px #999;
+    box-shadow: 0 0px 10px 1px #999;
+	background-color: #123231;
+}
+
+#active {
+	background-color: #155555;
+}
+
+
+.content {
+	z-index: -999;
+	background-color: #f2f2f2;
+	padding: 30px;
+	border-radius: 4px;
+	margin-top: 100px;
+	width: 50%;
+	margin-left: 22.2%;
+	margin-right: 23%;
+	opacity: 0.9;
+	text-align: justify;
+}
+
+.content p{
+	font-size: 22px;
+}
+
+.content span {
+	color: rgb(12,12,150);
+	font-weight: bold;
+
+}
+
+#about{
+	width: 30%;
+	margin-left: 6em;
+	margin-right: 1%;
+}
+
+#about2{
+	width: 50%;
+	margin-left: 6em;
+	margin-right: 1%;
+}
+
+
+
+.regis {
+	background-color: #f2f2f2;
+	padding: 30px;
+	border-radius: 6px;
+	margin-top: 100px;
+	width: 50%;
+	margin-left: 22.2%;
+	margin-right: 23%;
+}
+
+.regis input[type=text], input[type=password], select, textarea{
+	width: 50%;
+    padding: 7px 5px;
+    margin: 8px 0;
+    margin-left: 25%;
+    display: inline-block;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.regis input[type=submit]{
+	padding:20px 20px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.regis label{
+	margin-left: 25%;
+	display: table;
+}
+
+.regis h1,h2,h3,h4,h5,h6{
+	padding-top: 0px;
+	margin-top: -15px;
+	text-align: Center;
+}
+
+
+.regis input[type=submit]{
+	width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.regis input[type=submit]:hover {
+    background-color: #45a049;
+}
